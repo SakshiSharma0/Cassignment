@@ -5,7 +5,7 @@ int main()
 	int n,num=2,j=0;
 	printf("Enter a number: ");
 	scanf("%d",&n);
-
+     printf("\n%d Prime number's are..\n",n);
 	while(j<n)
 	{
 		int prime=1;
