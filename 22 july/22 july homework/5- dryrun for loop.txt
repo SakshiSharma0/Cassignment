@@ -1,0 +1,84 @@
+for(i=1;i<=4;i++)
+	{
+		for(j=1;j<=4;j++)
+		    printf("*\t");
+		printf("\n");
+	}
+
+
+1-
+i=1    
+//  1<=4   -- true
+
+then
+j=1
+//  1<=4   -- true
+j=2
+//  2<=4   -- true
+j=3
+//  3<=4   -- true
+j=4
+//  4<=4   --  4<4 false --4=4 true
+j=5
+//  5<=4   -- false
+ j loop exit
+
+2-
+i=2    
+//  2<=4   -- true
+
+then
+j=1
+//  1<=4   -- true
+j=2
+//  2<=4   -- true
+j=3
+//  3<=4   -- true
+j=4
+//  4<=4   --  4<4 false --4=4 true
+j=5
+//  5<=4   -- false
+ j loop exit
+
+
+3-
+i=3    
+//  3<=4   -- true
+
+then
+j=1
+//  1<=4   -- true
+j=2
+//  2<=4   -- true
+j=3
+//  3<=4   -- true
+j=4
+//  4<=4   --  4<4 false --4=4 true
+j=5
+//  5<=4   -- false
+ j loop exit
+
+
+4-
+i=4    
+//  4<=4   -- true
+
+then
+j=1
+//  1<=4   -- true
+j=2
+//  2<=4   -- true
+j=3
+//  3<=4   -- true
+j=4
+//  4<=4   --  4<4 false --4=4 true
+j=5
+//  5<=4   -- false
+ j loop exit
+
+5-
+i=5
+//  5<=5  --false
+
+OUTPUT
+1 2 3 4 
