@@ -1,4 +1,4 @@
-//No return and No argument
+//No return and No argument -- user
 
 #include<stdio.h>
 void add();
